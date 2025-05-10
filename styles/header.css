@@ -1,5 +1,5 @@
 .navegacao {
-  max-width: 1440px;
+ 
   margin: auto;
   padding-block: 1.5rem;
   padding-inline: 10rem; 
@@ -15,6 +15,8 @@
   font-family: var(--font-family-teko);
   letter-spacing: -2%;
   line-height: auto;
+  color: #FFFFFF;
+  text-transform: uppercase;
   
   
 }
@@ -32,10 +34,11 @@
   }
 }
 
+.container-nav a:hover {
+  color: rgba(255, 242, 233, 0.815);
+}
+
 .container-git {
   display: flex; 
   color:#FFF2E7;
 }
-
-
-
