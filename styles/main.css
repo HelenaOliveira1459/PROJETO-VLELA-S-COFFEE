@@ -1,0 +1,60 @@
+.receitas {
+  background-color: #38282B;
+  padding-inline: 160px;
+  padding-block: 3rem;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.header-receitas {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  gap: 8px;
+}
+
+.header-receitas-span {
+  font-family: var(--font-family-epilogue);
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #A45A49;
+  
+}
+
+.header-receitas-title {
+  font-family: var(--font-family-mont);
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+  color: #fff2e7;
+}
+
+.header-receitas p {
+  font-family: var(--font-family-inter);
+  font-size: 18px;
+  line-height: 148%;
+  color: #5eff00;
+  padding-bottom: 60px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
