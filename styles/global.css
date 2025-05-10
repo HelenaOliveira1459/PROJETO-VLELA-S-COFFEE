@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    
+  color: #FFFFFF ;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+ 
+}
+
+:root {
+   --font-family-teko: "Teko", sans-serif;
+   --font-family-epilogue: "Epilogue", sans-serif;
+   --font-family-mont: "Montserrat", sans-serif;
+   --font-family-inter: "Inter", sans-serif;
+}
+
+html{
+  font-family: var(--font-family-inter);
+  font-weight: 500;
+}
+

@@ -1,0 +1,41 @@
+.navegacao {
+  max-width: 1440px;
+  margin: auto;
+  padding-block: 1.5rem;
+  padding-inline: 10rem; 
+  display: flex;
+   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F1517;
+}
+
+.navegacao-logo{
+  font-size: 32px;
+  font-family: var(--font-family-teko);
+  letter-spacing: -2%;
+  line-height: auto;
+  
+  
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  
+  a {
+    font-family: var(--font-family-inter);
+    color: rgba(255, 242, 231, 0.5);
+    font-size: 16px;
+    
+  }
+}
+
+.container-git {
+  display: flex; 
+  color:#FFF2E7;
+}
+
+
+
