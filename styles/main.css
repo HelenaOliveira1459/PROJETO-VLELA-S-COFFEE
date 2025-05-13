@@ -34,12 +34,103 @@
   font-family: var(--font-family-inter);
   font-size: 18px;
   line-height: 148%;
-  color: #5eff00;
   padding-bottom: 60px;
  
 }
 
+.receitas-card-container {
+  padding-block: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  padding-inline: 160px;
+}
 
+.receitas-card {
+  background-color: #241A1C;
+  padding: 32px;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column; 
+  gap: 2rem;
+  flex-basis: 29rem;
+  
+}
+
+.receitas-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  
+
+}
+
+.receita-cards-detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.destaque-amarelo{
+  color:#E7A80E ;
+  text-transform: uppercase;
+}
+
+.titulo-cappuccino{
+  font-family: var(--font-family-mont);
+  letter-spacing: -2px;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.receita-nota{
+  font-family: var(--font-family-inter);
+  color: #756A67;
+  font-size: 16px;
+  line-height: 132%;
+}
+
+.receita-descricao{
+  font-family: var(--font-family-inter);
+  font-size: 16px;
+  line-height: 140%;
+  color: #C7BAB3;
+}
+
+.foto-cappuccino{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  color: #C7BAB3;
+  align-items: center;
+}
+
+.foto-cappuccino-img {
+ width: 24px; 
+ height: 24px;
+ image-resolution: cover;
+ border-radius: 50%;
+}
+
+.mais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-family: var(--font-family-inter);
+  font-size: 16px;
+  line-height: 148%;
+  color: #C7BAB3;
+  padding-top: 50px;
+  
+
+}
 
 
 
